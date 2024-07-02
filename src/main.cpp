@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 	//Return if the number of arguments is incorrect
 	if (argc < 2 || argc > 4) {
 		std::cout << "hasmbler <OPTIONAL /switch> <assembly file path> <OPTIONAL output file name>" << std::endl
-			<< "Try \"hasmbler /HELP\" for more info" << std::endl;
+			<< "Try \"hasmbler -HELP\" for more info" << std::endl;
 		return 1;
 	}
 
