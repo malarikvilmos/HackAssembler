@@ -1,0 +1,1 @@
+<img src="https://github-readme-stats.vercel.app/api?username=malarikvilmos&theme=default&show_icons=true&hide_border=true&hide=jupyter%20notebook&count_private=true" alt="malarikvilmos's GitHub Stats" />
