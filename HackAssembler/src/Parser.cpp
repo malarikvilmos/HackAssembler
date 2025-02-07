@@ -1,4 +1,6 @@
 #include "Parser.h"
+#include <cstdint>
+#include <algorithm>
 
 Parser::Parser(const char* file) noexcept
 {

@@ -26,11 +26,11 @@ int main(int argc, char** argv)
 		if (!strcmp(argv[1], "-B") || !strcmp(argv[1], "-b")) binary = true;
 		else if (!strcmp(argv[1], "-HELP") || !strcmp(argv[1], "-help")){
 			std::cout << "HackAssembler <OPTIONAL -switch> <assembly file path> <OPTIONAL output file name>\n" << std::endl
-				<< "Availabe switches:" << std::endl << "-B or -b for binary mode" << std::endl;
+				<< "Available switches:" << std::endl << "-B or -b for binary mode" << std::endl;
 			return 2;
 		}
 		else {
-			std::cout << "Unknown switch, availabe switches: -B or -b for binary mode" << std::endl;
+			std::cout << "Unknown switch, available switches: -B or -b for binary mode" << std::endl;
 			return 3;
 		}
 		source = 2;
